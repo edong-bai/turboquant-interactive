@@ -1,0 +1,22 @@
+{
+  "name": "turboquant-interactive",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Interactive, scrollable talk: discovering QJL and TurboQuant from first principles",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "notes": "node scripts/export-notes.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/source-serif-4": "^5.3.1",
+    "@fontsource/ibm-plex-sans": "^5.3.0",
+    "@fontsource/jetbrains-mono": "^5.3.0",
+    "katex": "^0.19.0"
+  },
+  "devDependencies": {
+    "vite": "^8.3.4"
+  }
+}
